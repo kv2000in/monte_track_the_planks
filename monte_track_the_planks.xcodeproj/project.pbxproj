@@ -6,10 +6,19 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXFileReference section */
+		2AFB0BAF25F1C61C00B84780 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		2AFB0BB025F1C67F00B84780 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		2AFB0BB125F1CDE100B84780 /* serviceworker.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = serviceworker.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		2AFB0BA825F1C5F500B84780 = {
 			isa = PBXGroup;
 			children = (
+				2AFB0BB125F1CDE100B84780 /* serviceworker.js */,
+				2AFB0BB025F1C67F00B84780 /* manifest.json */,
+				2AFB0BAF25F1C61C00B84780 /* index.html */,
 			);
 			sourceTree = "<group>";
 		};

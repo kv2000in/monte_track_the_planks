@@ -1,0 +1,20 @@
+
+<html>
+	<head>
+		<title>Track the Planks</title>
+		<link rel="manifest" href="manifest.json" /><br>
+		<script>
+			if ('serviceWorker' in navigator) {
+				navigator.serviceWorker.register('/js/serviceworker.js')
+				.then((reg) => {
+					  console.log('Registration succeeded');
+					  }).catch((error) => {
+							   console.log('Registration failed with ' + error);
+							   });
+			}
+		</script>
+	</head>
+	<body>
+		<p>Track the Planks</p>
+	</body>
+</html>

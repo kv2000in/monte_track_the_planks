@@ -1,0 +1,21 @@
+{
+"short_name": "Planks",
+"name": "Track the Planks ",
+"icons": [
+{
+"src": "/images/icon-200.png",
+"type": "image/png",
+"sizes": "200x200"
+},
+{
+"src": "/images/icon-225.png",
+"type": "image/png",
+"sizes": "225x225"
+}
+],
+"start_url": "/index.html",
+"background_color": "#3367D6",
+"display": "standalone",
+"scope": "/",
+"theme_color": "#3367D6"
+}
